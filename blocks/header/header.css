@@ -1,0 +1,23 @@
+.header {
+  width: 880px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  margin: 45px auto 40px auto;
+  border-bottom: 1px solid #545454;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    width: 610px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .header {
+    width: 320px;
+    height: 56px;
+    margin: 28px auto 42px auto;
+  }
+}

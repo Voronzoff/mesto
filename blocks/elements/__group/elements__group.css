@@ -1,0 +1,23 @@
+.elements__group {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, fit-content(383px) );
+  grid-template-rows: repeat(2, fit-content(282px));
+  grid-gap: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .elements__group {
+    grid-template-columns: repeat(2, fit-content(383px) );
+    grid-template-rows: repeat(3, fit-content(282px));
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .elements__group {
+    grid-template-columns: repeat(1, fit-content(383px) );
+    grid-template-rows: repeat(6, fit-content(282px));
+  }
+}

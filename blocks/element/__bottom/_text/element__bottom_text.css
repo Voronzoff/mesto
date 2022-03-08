@@ -1,0 +1,8 @@
+.element__bottom_text {
+  width: 241px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 20px 32px 21px;
+  align-self: center;
+}

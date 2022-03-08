@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+<body class="page">
+  <header class="header">
+    <img class="logo" src="./images/logo.svg">
+<!-- header -->
+  </header>
+<!-- main -->
+  <main class="content">
+<!-- section profile -->
+    <section class="profile">
+      <div class="profile__main">
+        <img class="profile__avatar" src="./images/avatar.svg" alt="аватар">
+        <div class="profile__info">
+          <div class="profile__block">
+            <h1 class="profile__name block">Жак Ив-Кусто</h1>
+            <button class="profile__button profile__button_edit"></button>
+          </div>
+          <p class="profile__hobby block">Исcледователь океана</p>
+        </div>
+      </div>
+      <button class="profile__button profile__button_add"></button>
+    </section>
+<!-- section elements -->
+    <section class="elements">
+      <ul class="elements__group">
+        <li class="element">
+          <img class="element__img" src="./images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
+          <div class="element__bottom">
+            <div class="element__bottom_text">
+              <p class="element__text block">Карачаевск</p>
+              <div class="element__like"></div>
+            </div>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/kirill-pershin-1404681-unsplash.png" alt="Эльбрус">
+          <div class="element__bottom">
+            <div class="element__bottom_text">
+              <p class="element__text">Гора Эльбрус</p>
+              <div class="element__like"></div>
+            </div>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
+          <div class="element__bottom">
+            <div class="element__bottom_text">
+              <p class="element__text block">Домбай</p>
+              <div class="element__like"></div>
+            </div>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/sonia-kuniakina-yI3h6N5qvp0-unsplash.png" alt="Питер">
+          <div class="element__bottom">
+            <div class="element__bottom_text">
+              <p class="element__text block">Санкт-Петербург</p>
+              <div class="element__like"></div>
+            </div>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/igor-starkov-2dv3Mf0PrrE-unsplash.png" alt="Сочи">
+          <div class="element__bottom">
+            <div class="element__bottom_text">
+              <p class="element__text block">Сочи</p>
+              <div class="element__like"></div>
+            </div>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/michael-parulava-L4jrg4c7928-unsplash.png" alt="Москва">
+          <div class="element__bottom">
+            <div class="element__bottom_text">
+              <p class="element__text block">Москва</p>
+              <div class="element__like"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+<!-- footer -->
+  <footer class="footer">
+    <p class="footer__text">&copy; 2022. Mesto Russia</p>
+  </footer>
+<!-- popup -->
+  <section class="popup">
+    <div class="popup__content">
+      <button class="popup__close"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form">
+        <input class="popup__field popup__field_name" type="text" value="Жак Ив-Кусто">
+        <input class="popup__field popup__field_hobby" type="text" value="Исследователь океана">
+        <button class="popup__button-save" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </section>
+<!-- script -->
+  <script src="./script.js"></script>
+</body>
+</html>

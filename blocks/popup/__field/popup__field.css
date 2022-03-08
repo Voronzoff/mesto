@@ -1,0 +1,17 @@
+.popup__field {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 358px;
+  height: 27px;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 630px) {
+  .popup__field {
+    width: 238px;
+  }
+}

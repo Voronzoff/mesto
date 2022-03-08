@@ -1,0 +1,5 @@
+.profile__block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
