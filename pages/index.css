@@ -4,7 +4,7 @@
 @import url('../blocks/block/block.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/element/__bottom/element__bottom.css');
-@import url('../blocks/element/__bottom/_text/element__bottom_text.css');
+@import url('../blocks/element/__block-text/element__block-text.css');
 @import url('../blocks/element/__like/element__like.css');
 @import url('../blocks/element/__like/_active/element__like_active.css');
 @import url('../blocks/element/__img/element__img.css');
