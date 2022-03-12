@@ -1,23 +1,26 @@
 .profile__name {
-  width: 400px;
+  width: 320px;
+  height: 48px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
   color: #fff;
   margin: 0;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 900px) {
   .profile__name {
-    width: 300px;
+    width: 294px;
   }
 }
 
 @media screen and (max-width: 630px) {
   .profile__name {
-    max-width: 200px;
+    width: 200px;
     font-size: 27px;
-    line-height: 32px;
+    line-height: 33px;
+    height: 33px;
   }
 }

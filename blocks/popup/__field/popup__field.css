@@ -4,10 +4,15 @@
   font-size: 14px;
   line-height: 17px;
   width: 358px;
-  height: 27px;
+  height: 38px;
   padding: 0;
   border: 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.popup__field:focus {
+  background-color: rgb(252, 247, 247);
 }
 
 @media screen and (max-width: 630px) {
