@@ -7,4 +7,4 @@
 Макет разрабатываемого адаптивного сайта предоставлен в Figma для десктопного и мобильного разрешений.
 
 ## Проект на github-pages:
-[https://voronzoff.github.io/mesto/](Mesto)
+[https://voronzoff.github.io/mesto/]
