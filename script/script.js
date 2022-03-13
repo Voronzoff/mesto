@@ -9,9 +9,11 @@ let popupFieldHobby = popup.querySelector('.popup__field_type_hobby');
 let popupForm = popup.querySelector('.popup__form');
 
 function togglePopup() {
+  if (!popup.classList.contains('popup_opened')) {
+    popupFieldName.value = nameProfile.textContent; 
+    popupFieldHobby.value = hobbyProfile.textContent; 
+  }
   popup.classList.toggle('popup_opened');
-  popupFieldName.value = nameProfile.textContent;
-  popupFieldHobby.value = hobbyProfile.textContent;
 }
 
 function submitForm(event) {
