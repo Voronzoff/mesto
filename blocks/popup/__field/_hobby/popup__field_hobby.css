@@ -1,9 +1,0 @@
-.popup__field_hobby {
-  margin: 0 auto 47px auto;
-}
-
-@media screen and (max-width: 630px) {
-  .popup__field_hobby {
-    margin: 0 auto 44px auto;
-  }
-}

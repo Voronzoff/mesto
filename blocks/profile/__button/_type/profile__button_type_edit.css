@@ -1,4 +1,4 @@
-.profile__button_change {
+.profile__button_type_edit {
   width: 24px;
   height: 24px;
   background-image: url(../../../../images/edit.svg);
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 630px) {
-  .profile__button_change {
+  .profile__button_type_edit {
     width: 18px;
     height: 18px;
     background-size: 8px 8px;

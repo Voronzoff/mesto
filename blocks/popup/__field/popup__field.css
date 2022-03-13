@@ -11,6 +11,20 @@
   box-sizing: border-box;
 }
 
+.popup__field:nth-child(1) {
+  margin: 0 auto 19px auto;
+}
+
+.popup__field:nth-child(2) {
+  margin: 0 auto 47px auto;
+}
+
+@media screen and (max-width: 630px) {
+  .popup__field:nth-child(2) {
+    margin: 0 auto 44px auto;
+  }
+}
+
 .popup__field:focus {
   background-color: rgb(252, 247, 247);
 }

@@ -22,12 +22,12 @@
         <div class="profile__info">
           <div class="profile__block">
             <h1 class="profile__name short-name">Жак-Ив Кусто</h1>
-            <button class="profile__button profile__button_change profile__button_change_edit" type="button" aria-label="редактировать профиль"></button>
+            <button class="profile__button profile__button_type_edit" type="button" aria-label="редактировать профиль"></button>
           </div>
           <p class="profile__hobby short-name">Исcледователь океана</p>
         </div>
       </div>
-      <button class="profile__button profile__button_add profile__button_add_edit" type="button" aria-label="добавить пока неизвестно чего"></button>
+      <button class="profile__button profile__button_type_add" type="button" aria-label="добавить пока неизвестно чего"></button>
     </section>
 <!-- section elements -->
     <section class="elements">
@@ -84,11 +84,11 @@
 <!-- popup -->
   <section class="popup">
     <div class="popup__content">
-      <button class="popup__button-close"></button>
+      <button class="popup__button-close" type="button" aria-label="закрыть всплывающее окно"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
       <form class="popup__form" name="popup-form">
-        <input class="popup__field popup__field_name popup__field_name_edit" type="text" required name="popup-field-name">
-        <input class="popup__field popup__field_hobby popup__field_hobby_edit" type="text" required name="popup-field-hobby">
+        <input class="popup__field popup__field_type_name" type="text" required name="popup-field-name">
+        <input class="popup__field popup__field_type_hobby" type="text" required name="popup-field-hobby">
         <button class="popup__button-save" type="submit" aria-label="сохранить изменения">Сохранить</button>
       </form>
     </div>
