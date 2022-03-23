@@ -27,64 +27,22 @@
           <p class="profile__hobby short-name">Исcледователь океана</p>
         </div>
       </div>
-      <button class="profile__button profile__button_type_add" type="button" aria-label="добавить пока неизвестно чего"></button>
+      <button class="profile__button profile__button_type_add" type="button" aria-label="добавить новую карточку"></button>
     </section>
 <!-- section elements -->
     <section class="elements">
       <ul class="elements__group">
-        <li class="element">
-          <img class="element__img" src="./images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
-            <div class="element__block-text">
-              <h2 class="element__text short-name">Карачаевск</h2>
-              <button class="element__button-like" type="button" aria-label="лайк"></button>
-            </div>
-        </li>
-        <li class="element">
-          <img class="element__img" src="./images/kirill-pershin-1404681-unsplash.png" alt="Эльбрус">
-            <div class="element__block-text">
-              <h2 class="element__text short-name">Гора Эльбрус</h2>
-              <button class="element__button-like" type="button" aria-label="лайк"></button>
-            </div>
-        </li>
-        <li class="element">
-          <img class="element__img" src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
-            <div class="element__block-text">
-              <h2 class="element__text short-name">Домбай</h2>
-              <button class="element__button-like" type="button" aria-label="лайк"></button>
-            </div>
-        </li>
-        <li class="element">
-          <img class="element__img" src="./images/sonia-kuniakina-yI3h6N5qvp0-unsplash.png" alt="Питер">
-            <div class="element__block-text">
-              <h2 class="element__text short-name">Санкт-Петербург</h2>
-              <button class="element__button-like" type="button" aria-label="лайк"></button>
-            </div>
-        </li>
-        <li class="element">
-          <img class="element__img" src="./images/igor-starkov-2dv3Mf0PrrE-unsplash.png" alt="Сочи">
-            <div class="element__block-text">
-              <h2 class="element__text short-name">Сочи</h2>
-              <button class="element__button-like" type="button" aria-label="лайк"></button>
-            </div>
-        </li>
-        <li class="element">
-          <img class="element__img" src="./images/michael-parulava-L4jrg4c7928-unsplash.png" alt="Москва">
-            <div class="element__block-text">
-              <h2 class="element__text short-name">Москва</h2>
-              <button class="element__button-like" type="button" aria-label="лайк"></button>
-            </div>
-        </li>
       </ul>
     </section>
   </main>
 <!-- footer -->
   <footer class="footer">
-    <p class="footer__text">&copy; 2022.Mesto Russia</p>
+    <p class="footer__text">&copy; 2022.Mesto Russia. No war</p>
   </footer>
-<!-- popup -->
-  <div class="popup">
-    <div class="popup__content">
-      <button class="popup__button-close" type="button" aria-label="закрыть всплывающее окно"></button>
+<!-- popup profile -->
+  <div class="popup popup__edit_profile">
+    <div class="popup__content popup__content_edit_profile">
+      <button class="popup__button-close popup__button_close_profile" type="button" aria-label="закрыть всплывающее окно"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
       <form class="popup__form" name="popup-form">
         <input class="popup__field popup__field_type_name" type="text" required name="popup-field-name">
@@ -93,6 +51,39 @@
       </form>
     </div>
   </div>
+<!-- popup add cards-->
+  <div class="popup popup__edit_cards">
+    <div class="popup__content">
+      <button class="popup__button-close popup__button_close_cards" type="button" aria-label="закрыть всплывающее окно"></button>
+      <h2 class="popup__title">Новое место</h2>
+      <form class="popup__form popup__form_card" name="popup-form">
+        <input class="popup__field popup__field_type_place-name" type="text" 
+        required name="popup-field-placename" placeholder="Название">
+        <input class="popup__field popup__field_type_place-link" type="text" 
+        required name="popup-field-placelink" placeholder="Ссылка на картинку">
+        <button class="popup__button-save" type="submit" aria-label="сохранить изменения">Создать</button>
+      </form>
+    </div>
+  </div>
+<!-- popup image -->
+  <div class="popup popup__view-image">
+    <div class="popup__container">
+      <img class="popup__image">
+      <button class="popup__button-close popup__button-close_active" type="button" aria-label="закрыть всплывающее окно"></button>
+      <h3 class="popup__title-image popup__title-image_active"></h3>
+    </div>    
+  </div>
+<!-- template -->
+  <template id="template">
+    <li class="element element-template">
+      <div class="element__trash"></div>
+      <img class="element__img element__img-template">
+      <div class="element__block-text">
+        <h2 class="element__text short-name element__text-template"></h2>
+        <button class="element__button-like" type="button" aria-label="лайк"></button>
+      </div>
+    </li>
+  </template>
 <!-- script -->
   <script src="./script/script.js"></script>
 </body>
