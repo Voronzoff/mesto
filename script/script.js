@@ -29,20 +29,20 @@ const listElements = document.querySelector('.elements__group');
 const templateElement = document.querySelector('#template').content;
 const formAddCard = document.querySelector('.popup__form_card');
 const popup = document.querySelector('.popup');
-const popupEditProfile = document.querySelector('.popup__edit_profile');
+const popupEditProfile = document.querySelector('.popup_edit-profile');
 const openPopupProfile = document.querySelector('.profile__button_type_edit');
-const closePopupProfile = popup.querySelector('.popup__button_close_profile');
+const closePopupProfile = popup.querySelector('.popup__button-close_profile');
 const profile = document.querySelector('.profile');
 const nameProfile = profile.querySelector('.profile__name');
 const hobbyProfile = profile.querySelector('.profile__hobby');
 const popupFieldName = popup.querySelector('.popup__field_type_name');
 const popupFieldHobby = popup.querySelector('.popup__field_type_hobby');
 const popupFormProfile = popup.querySelector('.popup__form');
-const popupAddCard = document.querySelector('.popup__edit_cards');
+const popupAddCard = document.querySelector('.popup_edit-cards');
 const openPopupCards = document.querySelector('.profile__button_type_add');
-const closePopupCards = document.querySelector('.popup__button_close_cards');
+const closePopupCards = document.querySelector('.popup__button-close_cards');
 const closeImage = document.querySelector('.popup__button-close_active');
-const popupViewImage = document.querySelector('.popup__view-image');
+const popupViewImage = document.querySelector('.popup_view-image');
 
 // функция создание карточки
 function createCard(item) {
