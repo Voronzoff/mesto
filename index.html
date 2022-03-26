@@ -67,24 +67,25 @@
   </div>
 <!-- popup image -->
   <div class="popup popup_view-image">
-    <div class="popup__container">
-      <img class="popup__image">
+    <figure class="popup__container">
+      <img class="popup__image" src="#" alt="#">
       <button class="popup__button-close popup__button-close_active" type="button" aria-label="закрыть всплывающее окно"></button>
-      <h3 class="popup__title-image popup__title-image_active"></h3>
-    </div>    
+      <figcaption class="popup__title-image popup__title-image_active"></figcaption>
+    </figure>    
   </div>
 <!-- template -->
   <template id="template">
     <li class="element element-template">
       <div class="element__trash"></div>
-      <img class="element__img element__img-template">
+      <img class="element__img element__img-template" src="#" alt="#">
       <div class="element__block-text">
         <h2 class="element__text short-name element__text-template"></h2>
         <button class="element__button-like" type="button" aria-label="лайк"></button>
       </div>
     </li>
   </template>
-<!-- script -->
+<!-- scripts -->
+  <script src="./script/cards.js"></script>
   <script src="./script/script.js"></script>
 </body>
 </html>
