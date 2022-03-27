@@ -16,6 +16,7 @@ const closeImage = document.querySelector('.popup__button-close_active');
 const popupImage = document.querySelector('.popup__image');
 const cardName = document.querySelector('.popup__field_type_place-name');
 const cardLink = document.querySelector('.popup__field_type_place-link');
+const popupTitleImageActive = document.querySelector('.popup__title-image_active');
 
 // const open/close popup
 const popupEditProfile = document.querySelector('.popup_edit-profile');
@@ -49,7 +50,7 @@ function createCard(item) {
 // открытие картинки карточки
   elementImgTemplate.addEventListener('click', function() {
     popupImage.src = elementImgTemplate.src;  
-    document.querySelector('.popup__title-image_active').textContent = elementTextTemplate.innerText;
+    popupTitleImageActive.textContent = elementTextTemplate.innerText;
     popupImage.alt = elementTextTemplate.innerText;  
     openPopup(popupViewImage);
   });
